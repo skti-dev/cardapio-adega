@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from '../../../styles/Lista.module.css'
+import styles from '../../styles/Lista.module.css'
 
 const Lista = ({ title, items, id, children }) => {
   return(
@@ -10,7 +10,7 @@ const Lista = ({ title, items, id, children }) => {
         {children}
       </h1>
       <ul>
-        {items.map(item => (
+        {items && items.map(item => (
           <li key={item.id}>
             {`${item.name} - R$${item.price}`}
           </li>

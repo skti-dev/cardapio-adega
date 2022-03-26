@@ -1,6 +1,6 @@
-import Logo from './components/Logo/Logo'
-import Ancoras from './components/Ancoras/Ancoras'
-import Lista from './components/Lista/Lista'
+import Logo from '../components/Logo/Logo'
+import Ancoras from '../components/Ancoras/Ancoras'
+import Lista from '../components/Lista/Lista'
 
 import styles from '../styles/Home.module.css'
 

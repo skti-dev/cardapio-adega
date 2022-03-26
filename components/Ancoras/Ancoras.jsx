@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from '../../../styles/Ancoras.module.css'
+import styles from '../../styles/Ancoras.module.css'
 
 const Ancoras = () => {
   return (

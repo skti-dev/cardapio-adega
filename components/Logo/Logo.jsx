@@ -1,7 +1,7 @@
 import React from "react"
 
 import { BeakerIcon } from '@heroicons/react/solid'
-import styles from '../../../styles/Logo.module.css'
+import styles from '../../styles/Logo.module.css'
 
 const Logo = () => {
   return (
