@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: .85em;
+  margin: 10px 0;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: currentColor;
+}
+.item a:visited {
+  color: currentColor;
+}
+
+.item svg {
+  margin-right: 2px;
+}
