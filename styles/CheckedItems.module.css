@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 25px;
+}
+
+.floatingBox {
+  opacity: 0;
+  visibility: hidden;
+  transform: opacity 200ms;
+  position: absolute;
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  border: 1px solid #eee;
+  font-size: .9em
+}
+
+.floatingBox.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-110px, 85px)
+}
+
+.floatingBox ul {
+  list-style-type: none;
+}
+
+.floatingBox ul li {
+  margin-bottom: 5px;
+}
+
+.floatingBox ul li:last-child {
+  margin-bottom: 0;
+}

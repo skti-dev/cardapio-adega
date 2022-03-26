@@ -1,6 +1,7 @@
 import Logo from '../components/Logo/Logo'
 import Ancoras from '../components/Ancoras/Ancoras'
 import Lista from '../components/Lista/Lista'
+import CheckedItems from "../components/CheckedItems/CheckedItems"
 
 import styles from '../styles/Home.module.css'
 
@@ -38,7 +39,7 @@ export default function Home() {
     <div>
       <nav className={styles.nav}>
         <Logo />
-        {/* <CheckedItems> */}
+        <CheckedItems items={cervejas} />
       </nav>
       <main className={styles.container}>
         <Ancoras />

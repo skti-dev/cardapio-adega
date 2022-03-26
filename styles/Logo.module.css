@@ -1,15 +1,19 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  font-size: .95em
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: .95em;
+  padding: 5px;
+}
+
+.logo svg {
   width: 1.5em;
   fill: #1a1a1a;
 }
